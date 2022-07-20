@@ -1,0 +1,110 @@
+.headNav {
+	background-color: #30363c;
+	width: 100%;
+	font-family: Raleway, Arial;
+	font-style: italic;
+	font-size: 16px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	position: fixed;
+	z-index: 2;
+}
+
+
+.headNav .navbar-text {
+	color: #f0680d;
+
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Hachi Maru Pop", Arial;
+
+	margin-right: 50px;
+	padding-top: 5px;
+
+	transition: 0.5s;
+}
+
+.headNav .navbar-text:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #1a7526;
+}
+
+
+#basic-navbar-nav a {
+	cursor: pointer;
+	color: #3ca542;
+	font-weight: 300;
+	transition: 0.5s;
+}
+
+#basic-navbar-nav a:hover {
+	color: #ee6e13;
+}
+
+#basic-navbar-nav a:focus {
+	color: #ee6e13;
+}
+
+
+.nav_user_icon {
+	width: 100%;
+	text-align: right;
+}
+
+#basic-navbar-nav a.nav_user_icon {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.nav_user_icon svg {
+	font-size: 25px;
+	color: #f0680d;
+	margin-right: 10px;
+}
+
+.logged_nav button {
+	width: 160px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.logged_nav .logged-icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.logged_nav .logged_user{
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 600px) {
+
+
+	.headNav .navbar-text {
+		font-size: 20px;
+	}
+
+
+	#basic-navbar-nav a {
+		border-bottom: 0.5px solid #62472f;
+	}
+
+	#basic-navbar-nav a:hover {
+		font-weight: bold;
+		border-bottom: 1px solid #3ca542;
+	}
+
+
+	.navbar-collapse.collapse.show {
+		padding-bottom: 20px;
+	}
+
+}

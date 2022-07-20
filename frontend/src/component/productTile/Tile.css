@@ -1,0 +1,35 @@
+.main_tile hr{
+	margin: 0px;
+}
+
+.tile_heading{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-bottom: 5px;
+	border-bottom: 3px solid orange;
+}
+.tile_heading h6{
+	margin: 0;
+	float: left;
+	width: 25%;
+}
+
+
+.tile{
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.tile:hover{
+	padding: 9px;
+	border: #b6d4fe 1px solid;
+}
+
+.tile h6{
+	margin: 0;
+	float: left;
+	width: 25%;
+}

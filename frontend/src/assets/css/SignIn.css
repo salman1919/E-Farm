@@ -1,0 +1,158 @@
+.login_page {
+	width: 100vw;
+	height: 100vh;
+}
+
+.login_page_back_arrow {
+	position: fixed;
+	height: 100px;
+	width: 110px;
+	background-color: rgba(46, 98, 98, 0.6);
+	color: #d8dce0;
+}
+
+.login_page_back_arrow svg {
+	position: absolute;
+	font-size: 80px;
+}
+
+.login_page_back_arrow:hover {
+	cursor: pointer;
+	color: limegreen;
+}
+
+.login_null {
+	background-image: url(../images/hd.jpg);
+	background-size: cover;
+
+	height: 100%;
+	float: left;
+	z-index: -1;
+}
+
+.login_form_div {
+	float: right;
+	height: 100%;
+	background-color: #d8dce0;
+}
+
+.login_form_div form {
+	height: 100%;
+	padding: 10%;
+	text-align: center;
+}
+
+.login_user_icon {
+	font-size: 70px;
+}
+
+.login_form_div .form-label {
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.login_form_div form input {
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 3px #17ab17 solid;
+}
+
+.login_form_div form input:focus {
+	border: none;
+}
+
+.login_form_div form input:hover {
+	border-bottom: 3px orange solid;
+}
+
+
+.login_btn {
+	float: left;
+	margin: 5%;
+	width: 40%;
+	padding: 0;
+	background-color: darkgray;
+	border-radius: 5px;
+}
+
+.login_btn.login_submit {
+	background-color: #179f17;
+	transition: 0.5s;
+}
+
+.login_btn.login_submit .btn {
+	color: #fafafa;
+}
+
+.login_btn.login_submit:hover {
+	background-color: orange;
+}
+
+.login_btn .btn{
+	width: 100%;
+	height: 100%;
+}
+
+
+.user_radio_opt.MuiFormGroup-root {
+	width: 100%;
+	flex-direction: row;
+}
+.user_radio_opt label{
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+.login_signup,.login_forget{
+	width: 50%;
+	color: #d94c14;
+}
+
+#loginError{
+	width: 100%;
+	color: #fc0202;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+	.login_null {
+		display: none;
+	}
+
+	.login_page {
+		background-image: url(../images/mobile.jpg);
+		background-size: cover;
+		min-height: 100vh;
+	}
+
+	.login_form_div {
+		margin-top: 100px;
+		height: calc(100% - 100px);
+		border-radius: 30px;
+		background-color: rgba(139, 139, 172, 0.6);
+	}
+
+
+	.login_page_back_arrow {
+		position: fixed;
+		height: 60px;
+		width: 60px;
+		background-color: rgba(46, 98, 98, 0.6);
+		color: #d8dce0;
+	}
+
+	.login_page_back_arrow svg {
+		margin-left: -10px;
+		position: absolute;
+		font-size: 40px;
+	}
+	.login_signup,.login_forget{
+		width: 100%;
+		color: #093479;
+	}
+
+}

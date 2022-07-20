@@ -1,0 +1,52 @@
+.logged_nav {
+	margin: auto;
+	float: right;
+}
+
+@media screen and (max-width: 900px) {
+
+	.headNav {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.headNav .navbar-text {
+		margin: 0px;
+		padding: 0px;
+		font-size: 14px;
+		float: left;
+	}
+
+	.logged_nav.inc button {
+		width: 100px;
+		padding: 0px;
+
+	}
+
+	.logged_nav.inc .logged-icon {
+		font-size: 24px;
+		margin-right: 10px;
+	}
+
+	.logged_nav.inc .logged_user {
+		font-size: 12px;
+		width: 60px;
+	}
+
+	.s_dash_main {
+		width: 100%;
+		height: auto;
+	}
+
+	.newOrder {
+		width: 100%;
+	}
+
+	.current {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+}
